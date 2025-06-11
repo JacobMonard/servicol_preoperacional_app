@@ -1,0 +1,49 @@
+name: servicolpreoperacionalapp
+description: A new Flutter project for Servicol preoperacional app.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Asegúrate de que esta línea es compatible con tu versión de Flutter
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utilidades para manejo de imágenes
+  image_picker: ^1.1.2
+  # Para la firma digital
+  signature: ^5.3.0
+  # Para generar IDs únicos
+  uuid: ^4.4.0
+  # Para obtener directorios temporales para PDFs
+  path_provider: ^2.1.3
+  # Para generar PDFs
+  pdf: ^3.10.8
+  # Para abrir archivos PDF generados (solo móvil/desktop)
+  open_filex: ^4.4.0
+  # Para compartir archivos (solo móvil/desktop)
+  share_plus: ^9.0.0
+  # Para realizar solicitudes HTTP (necesario para cargar imágenes desde URLs en PDF)
+  http: ^1.2.1 
+  intl: ^0.18.1
+  printing: ^5.12.0 # Para previsualizar o imprimir PDFs
+  # Para cargar fuentes de Google Fonts (usado con la librería pdf)
+  google_fonts: ^6.2.1 
+  # Para previsualizar PDFs en Flutter si lo necesitas (no estrictamente necesario para la generación, pero útil)
+  pdf_render: ^1.4.1 
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Para incluir recursos (assets) como fuentes, imágenes, etc.
+  # Asegúrate de que la ruta 'assets/fonts/' contenga tus archivos .ttf de Roboto.
+  assets:
+    - assets/fonts/ # MUY IMPORTANTE: Descomentar y asegurar que esta línea esté aquí.

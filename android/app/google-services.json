@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "721314314786",
+    "project_id": "servicolpreoperacionalapp",
+    "storage_bucket": "servicolpreoperacionalapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721314314786:android:3b877cfedb62acc1fbe87b",
+        "android_client_info": {
+          "package_name": "com.example.servicolpreoperacionalapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHtVFoqc5eywQW1ZUo1COeh9XMHgb5wVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
